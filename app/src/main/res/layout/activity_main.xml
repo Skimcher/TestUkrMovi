@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/blue_dark"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ТЕСТИ З&#10;УКРАЇНСЬКОЇ&#10;МОВИ"
+        android:textColor="@color/yellow"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="220dp"
+        android:layout_height="60dp"
+        android:text="ПОЧАТИ"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/blue_dark"
+        android:background="@drawable/button_bg"/>
+
+</LinearLayout>
